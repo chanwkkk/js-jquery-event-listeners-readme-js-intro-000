@@ -15,7 +15,7 @@ function pressIt(){
 }
 
 function frameIt(){
-  $("img").on("load",(e)=>{
+  $("img").on("load",()=>{
     var img1=document.querySelector('img');
      img1.className="tasty"
   })
