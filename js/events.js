@@ -6,7 +6,7 @@ function getIt(){
 }
 
 function pressIt(){
-  $('#typing').on("keydown",(e)=>{
+  $('#typing').on("keydown",()=>{
 
     if(e.which===71){
       alert ("You pressed G!")
